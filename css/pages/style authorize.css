@@ -1,0 +1,166 @@
+@import url(./common.css);
+
+.wrapper {
+  font-family: "Jost", Arial, sans-serif;
+}
+.container {
+  display: flex;
+  border: 1px solid #e6e9fa;
+  margin: 50px;
+  border-radius: 24px;
+  backdrop-filter: blur(24px);
+  overflow: hidden;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3949ab;
+  color: white;
+  padding: 143px 183px 0;
+}
+.left img {
+  width: 189.27px;
+  height: 219px;
+}
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+  text-align: center;
+}
+.text span {
+  font-weight: 600;
+  font-size: 24px;
+}
+.right {
+  padding: 134px 64px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.right a {
+  color: #6f74dd;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: right;
+}
+.right p {
+  color: #828282;
+  text-align: center;
+}
+.input {
+  display: block;
+  border: 1px solid #d0d0d0;
+  padding: 8px 0 8px 40px;
+  border-radius: 8px;
+  background-image: url(C:/Users/Max%20work/Desktop/Work/HTML+CSS/todoapp/img/icon.svg);
+  background-repeat: no-repeat;
+  background-position: 2% 5px;
+}
+.password {
+  background-image: url(C:/Users/Max%20work/Desktop/Work/HTML+CSS/todoapp/img/lock.svg);
+}
+.control {
+  background: url(C:/Users/Max%20work/Desktop/Work/HTML+CSS/todoapp/img/view.svg)
+    no-repeat;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 70px;
+  top: 270px;
+}
+.control::before {
+  content: " ";
+  width: 100%;
+  height: 1px;
+  background: black;
+  display: block;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  transition: 0.3s;
+}
+.control.alena::before {
+  width: 0%;
+}
+.title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  color: #343434;
+}
+.form {
+  margin-top: 54px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.form:last-child {
+  text-align: right;
+}
+.create_line {
+  display: inline-block;
+  padding: 0 4px;
+  position: relative;
+  padding: 0 168.5px;
+}
+.create_line::before {
+  content: " ";
+  background-color: #e6e9fa;
+  width: 93px;
+  height: 1px;
+  top: 7px;
+  left: 70px;
+  position: absolute;
+}
+.create_line::after {
+  content: " ";
+  background-color: #e6e9fa;
+  width: 93px;
+  height: 1px;
+  top: 7px;
+  left: 196px;
+  position: absolute;
+}
+.button {
+  margin: 32px 0 8px;
+  background-color: #3949ab;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  padding: 11px 162px;
+  border-radius: 16px;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.choose {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.white {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 8px;
+  padding: 6px 50px;
+  color: #3949ab;
+  border: 1px solid #3949ab;
+  background-color: #ffffff;
+  margin-bottom: 24px;
+}
+.last {
+  margin-top: 16px;
+  padding: 10px 142.5px;
+}
+.right svg {
+  height: 24px;
+}

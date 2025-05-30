@@ -1,0 +1,44 @@
+@import url(./common.css);
+
+.wrapper {
+  font-family: "Jost", Arial, sans-serif;
+}
+.time {
+  color: #ffffff;
+}
+.header {
+  background: #9395d3;
+  padding: 10px 7px 24px 19px;
+}
+.header_title {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+  gap: 37px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+}
+.main_input {
+  width: 356px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #8b8787;
+  border-bottom: 1px solid #8b8787;
+  display: block;
+  margin: 43px 30px;
+}
+.main_button {
+  padding: 20px 171px 20px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  background: #9395d3;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 15px;
+  margin: 20px 14px 0;
+}
+.main_button:hover {
+  transform: translate(0, 3px);
+  box-shadow: 0px 8px 8px 0px #00000040;
+}
